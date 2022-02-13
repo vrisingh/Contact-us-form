@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us form</title>
+</head>
+<body>
+<form><div style="background-color:pink;">
+    <h1 style="text-align:center">Contact us</h1><br>
+    <Lable for="N">Name</Lable>
+    <input type="text" name="" id="N"><br>
+    <BR>
+    <label for="PN">Phone Number</label>
+    <input type="text" name="" id="PN"><br>
+    <BR>
+        <label for="email">Email Id</label>
+        <input type="email" name="" id="email"><br>
+        <br>
+        <label for="">Gender:</label>
+        <label for="">Male</label>
+        <input type="radio" name="Gender" id="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Female"><br>
+        <br>
+        <lable for="issue">Issue</lable><br>
+        <textarea name="issue" id="issue" cols="30" rows="10">Type your issue here</textarea><br>
+        <br>
+        <input type="submit" value="Submit">
+    
+    <h5>Note: We'll contact you within 24hrs</h5>
+
+</form>
+
+
+</div>
+
+</body>
+</html>
